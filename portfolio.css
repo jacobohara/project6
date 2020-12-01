@@ -1,0 +1,133 @@
+main {
+  margin-top: 100px;
+  margin-left: 2em;
+}
+
+p1 {
+  font-family: verdana;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: verdana;
+}
+
+biography {
+  display: flex;
+  justify-content: center;
+}
+
+centered-text {
+  text-align: center;
+}
+
+bio-text {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+padding-right-cm {
+  padding-right: 286px;
+}
+
+padding-right-dnu {
+  padding-right: 276px;
+}
+
+bio-title {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+general-text {
+  font-family: verdana;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-container-left {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: verdana;
+}
+
+nav.top-nav {
+  background-color: black;
+  position: fixed;
+  text-align: right;
+  padding-right: 30px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 4px 4px #0003;
+}
+
+nav.top-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav.top-nav li {
+  font-family: verdana;
+  font-weight: bold;
+  color: #fffd;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  user-select: none;
+  position: relative;
+  padding-left: 30px;
+}
+
+nav.top-nav li:hover {
+  text-decoration: underline;
+}
+
+nav.top-nav li:active {
+  color: #fff;
+}
+
+.top-nav .pulldown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  top: 26px;
+  left: 5px;
+  width: 170px;
+}
+
+nav.top-nav .pulldown-menu li {
+  color: #333;
+  display: block;
+  padding: 5px;
+  font-weight: 200;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+  display: block;
+}
